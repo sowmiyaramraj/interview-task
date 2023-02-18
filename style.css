@@ -1,0 +1,73 @@
+.form-container{
+    min-height: 100vh;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-container form{
+    padding: 20px;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 500px;
+}
+
+.form-container form .box{
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-size: 18px;
+    color: var(--black);
+    margin: 10px 0;
+    background-color: var(--light-bg);
+}
+
+.form-container form h2{
+    text-transform: uppercase;
+}
+
+.btn,
+.deletebtn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 3px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(126, 170, 228);
+}
+
+.btn:hover{
+    background-color: rgb(55, 55, 94);
+}
+
+.deletebtn{
+    background-color: rgb(240, 129, 129)
+}
+
+.deletebtn:hover{
+    background-color: darkred;
+}
+
+
+.form-container p{
+
+}
+.form-container p a{
+
+}
+
+.form-container p a:hover{
+
+}
+
+.message{
+    
+}
